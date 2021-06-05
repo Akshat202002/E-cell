@@ -98,6 +98,7 @@ button:hover{
     margin-top: 450px;
     padding-top: 70px;
     margin-bottom: 0;
+    position-fixed;
 }
 footer ul {
     margin: 0;
