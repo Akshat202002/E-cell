@@ -78,18 +78,32 @@ button:hover{
     background-color: white;
     color: #009688;
 }
-footer{
-    position: fixed;
-    padding: 10px 10px 0 10px;
-    bottom: 0;
-    width: 100%;
-    height: 40px;
-}
 .icon-phone, .icon-envelope-open, .icon-globe, .icon-social-instagram{
-    padding: 100px;
+    padding: 0px;
     font-size: 20px;
     width: 50px;
     text-align: center;
     text-decoration: none;
     color: white;
+    border: 0px solid blue;
+    margin-right: 50px;
+    margin-bottom: 10px;
  }
+ 
+ footer {
+    padding: 1rem 0 3rem 0;
+    text-align: center;
+    font-size: 0.8rem;
+    border: 0px solid #A61F11;
+    margin-top: 450px;
+    padding-top: 70px;
+    margin-bottom: 0;
+}
+footer ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+footer li {
+    display: inline-block;
+}
